@@ -1,0 +1,40 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.scroll-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.scroll-wrapper-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: lightgrey;
+}
+
+.scroll-box-element {
+  display: flex;
+  width: 300px;
+  margin: 100px;
+  background: grey;
+  padding: 25px;
+}
+
+.spacer {
+  height: 100px;
+  background-color: #97d1e2;
+}
+
+p {
+  font-size: 50px;
+  color: white;
+  font-weight: 800;
+}/*# sourceMappingURL=style.css.map */
