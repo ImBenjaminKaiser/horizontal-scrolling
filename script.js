@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Gsap docs: https://gsap.com/docs/v3/
     // Create a GSAP animation for the scroll-wrapper element to create a horizontal scrolling effect
     gsap.to(scrollWrapper, {
-        x: -(scrollWrapperWidth.width - (window.innerWidth)) + "px", // Moves the scroll-wrapper element to the left so that the scroll-wrapper's right border ends on the right side of the screen
+        x: -(scrollWrapperWidth.width - (window.innerWidth)) + "px", // Moves the scroll-wrapper element to the left so that the scroll-wrapper's right margin ends on the right side of the screen
         scrollTrigger: {
             trigger: scrollWrapperWrapper, // Use the scroll-wrapper-wrapper as the trigger for the animation
             start: "top top", // Start the animation when the top of the scroll-wrapper-wrapper hits the top of the viewport
